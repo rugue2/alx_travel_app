@@ -1,4 +1,5 @@
-from django.http import JsonResponse
+from django.http import HttpResponse
 
-def index(request):
-    return JsonResponse({"message": "Welcome to ALX Travel App!"})
+def home(request):
+    return HttpResponse("Welcome to ALX Travel App 🚀")
+
